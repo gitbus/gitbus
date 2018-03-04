@@ -12,8 +12,8 @@ import (
 	"gopkg.in/gomail.v2"
 	"gopkg.in/macaron.v1"
 
-	"github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gitbus/gitbus/pkg/markup"
+	"github.com/gitbus/gitbus/pkg/setting"
 )
 
 const (

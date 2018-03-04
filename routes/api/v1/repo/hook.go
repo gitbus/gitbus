@@ -11,10 +11,10 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/routes/api/v1/convert"
+	"github.com/gitbus/gitbus/models"
+	"github.com/gitbus/gitbus/models/errors"
+	"github.com/gitbus/gitbus/pkg/context"
+	"github.com/gitbus/gitbus/routes/api/v1/convert"
 )
 
 // https://github.com/gogits/go-gogs-client/wiki/Repositories#list-hooks

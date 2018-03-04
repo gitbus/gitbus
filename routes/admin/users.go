@@ -10,12 +10,12 @@ import (
 	"github.com/Unknwon/com"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/pkg/mailer"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/routes"
+	"github.com/gitbus/gitbus/models"
+	"github.com/gitbus/gitbus/pkg/context"
+	"github.com/gitbus/gitbus/pkg/form"
+	"github.com/gitbus/gitbus/pkg/mailer"
+	"github.com/gitbus/gitbus/pkg/setting"
+	"github.com/gitbus/gitbus/routes"
 )
 
 const (

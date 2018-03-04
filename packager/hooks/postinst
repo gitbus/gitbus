@@ -2,7 +2,7 @@
 
 set -e
 
-APP_NAME="gogs"
+APP_NAME="gitbus"
 CLI="${APP_NAME}"
 APP_USER=$(${CLI} config:get APP_USER)
 APP_GROUP=$(${CLI} config:get APP_GROUP)
@@ -15,10 +15,10 @@ ${CLI} config:set USER=${APP_USER}
 sed -i "s|RUN_USER = git|RUN_USER = ${APP_USER}|" ${APP_CONFIG}
 sed -i "s|RUN_MODE = dev|RUN_MODE = prod|" ${APP_CONFIG}
 
-${CLI} config:set GOGS_CUSTOM=/etc/${APP_NAME}
+${CLI} config:set GITBUS_CUSTOM=/etc/${APP_NAME}
 
 # scale
 ${CLI} scale web=1 || true
 
 # restart the service
-service gogs restart || true
+service gitbus restart || true

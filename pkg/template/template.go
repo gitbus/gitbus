@@ -21,10 +21,10 @@ import (
 	log "gopkg.in/clog.v1"
 	"gopkg.in/editorconfig/editorconfig-core-go.v1"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/tool"
+	"github.com/gitbus/gitbus/models"
+	"github.com/gitbus/gitbus/pkg/markup"
+	"github.com/gitbus/gitbus/pkg/setting"
+	"github.com/gitbus/gitbus/pkg/tool"
 )
 
 // TODO: only initialize map once and save to a local variable to reduce copies.

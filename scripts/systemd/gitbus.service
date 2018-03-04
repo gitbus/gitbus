@@ -1,5 +1,5 @@
 [Unit]
-Description=Gogs
+Description=GitBus
 After=syslog.target
 After=network.target
 After=mariadb.service mysqld.service postgresql.service memcached.service redis.service
@@ -14,8 +14,8 @@ After=mariadb.service mysqld.service postgresql.service memcached.service redis.
 Type=simple
 User=git
 Group=git
-WorkingDirectory=/home/git/gogs
-ExecStart=/home/git/gogs/gogs web
+WorkingDirectory=/home/git/gitbus
+ExecStart=/home/git/gitbus/gitbus web
 Restart=always
 Environment=USER=git HOME=/home/git
 

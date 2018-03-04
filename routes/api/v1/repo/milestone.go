@@ -9,8 +9,8 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
+	"github.com/gitbus/gitbus/models"
+	"github.com/gitbus/gitbus/pkg/context"
 )
 
 func ListMilestones(c *context.APIContext) {

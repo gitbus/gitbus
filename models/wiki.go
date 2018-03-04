@@ -17,8 +17,8 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/sync"
+	"github.com/gitbus/gitbus/pkg/setting"
+	"github.com/gitbus/gitbus/pkg/sync"
 )
 
 var wikiWorkingPool = sync.NewExclusivePool()

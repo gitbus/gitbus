@@ -17,13 +17,13 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/template"
-	"github.com/gogits/gogs/pkg/template/highlight"
-	"github.com/gogits/gogs/pkg/tool"
+	"github.com/gitbus/gitbus/models"
+	"github.com/gitbus/gitbus/pkg/context"
+	"github.com/gitbus/gitbus/pkg/markup"
+	"github.com/gitbus/gitbus/pkg/setting"
+	"github.com/gitbus/gitbus/pkg/template"
+	"github.com/gitbus/gitbus/pkg/template/highlight"
+	"github.com/gitbus/gitbus/pkg/tool"
 )
 
 const (

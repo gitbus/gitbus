@@ -13,7 +13,7 @@ import (
 	"github.com/gogits/git-module"
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gitbus/gitbus/pkg/setting"
 )
 
 type DiscordEmbedFooterObject struct {

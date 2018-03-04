@@ -19,17 +19,17 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/cron"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/pkg/mailer"
-	"github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/ssh"
-	"github.com/gogits/gogs/pkg/template/highlight"
-	"github.com/gogits/gogs/pkg/tool"
-	"github.com/gogits/gogs/pkg/user"
+	"github.com/gitbus/gitbus/models"
+	"github.com/gitbus/gitbus/pkg/context"
+	"github.com/gitbus/gitbus/pkg/cron"
+	"github.com/gitbus/gitbus/pkg/form"
+	"github.com/gitbus/gitbus/pkg/mailer"
+	"github.com/gitbus/gitbus/pkg/markup"
+	"github.com/gitbus/gitbus/pkg/setting"
+	"github.com/gitbus/gitbus/pkg/ssh"
+	"github.com/gitbus/gitbus/pkg/template/highlight"
+	"github.com/gitbus/gitbus/pkg/tool"
+	"github.com/gitbus/gitbus/pkg/user"
 )
 
 const (

@@ -21,12 +21,12 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/httplib"
-	"github.com/gogits/gogs/pkg/mailer"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/template"
-	http "github.com/gogits/gogs/routes/repo"
+	"github.com/gitbus/gitbus/models"
+	"github.com/gitbus/gitbus/pkg/httplib"
+	"github.com/gitbus/gitbus/pkg/mailer"
+	"github.com/gitbus/gitbus/pkg/setting"
+	"github.com/gitbus/gitbus/pkg/template"
+	http "github.com/gitbus/gitbus/routes/repo"
 )
 
 var (

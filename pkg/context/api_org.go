@@ -5,7 +5,7 @@
 package context
 
 import (
-	"github.com/gogits/gogs/models"
+	"github.com/gitbus/gitbus/models"
 )
 
 type APIOrganization struct {

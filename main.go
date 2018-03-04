@@ -12,8 +12,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/gogits/gogs/cmd"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gitbus/gitbus/cmd"
+	"github.com/gitbus/gitbus/pkg/setting"
 )
 
 const APP_VER = "0.11.34.0302"
@@ -24,7 +24,7 @@ func init() {
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "Gogs"
+	app.Name = "GitBus"
 	app.Usage = "A painless self-hosted Git service"
 	app.Version = APP_VER
 	app.Commands = []cli.Command{
